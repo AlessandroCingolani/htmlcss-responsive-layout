@@ -30,6 +30,14 @@
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
 .wrap {
   flex-wrap: wrap;
 }
@@ -69,6 +77,15 @@ header nav {
 /* planning section */
 
 .planning {
+  width: 100%;
+}
+
+/* testimonials section */
+.img-testimonial {
+  width: 100%;
+}
+
+.text-testimonial {
   width: 100%;
 }
 
