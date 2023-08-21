@@ -107,4 +107,14 @@ header nav {
   .planning {
     width: 50%;
   }
+
+  .img-testimonial {
+    width: 30%;
+  }
+
+  .text-testimonial {
+    width: 70%;
+    justify-content: center;
+  }
+
 }
