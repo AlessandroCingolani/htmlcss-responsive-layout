@@ -138,16 +138,28 @@ header nav {
     justify-content: center;
   }
 
+  .about-text {
+    width: 70%;
+  }
+  
+  .about-img {
+    width: 30%;
+  }
+
 }
 
 @media screen and (min-width: 992px) { 
   .container {
-    max-width: 1200px; 
+    max-width: 1400px; 
   }
   .big-card .sx , .dx {
     width: 50%;
   }
   .planning {
     width: 50%;
+  }
+
+  .benefits .small-card {
+    width: calc(100% /3 );
   }
 }
