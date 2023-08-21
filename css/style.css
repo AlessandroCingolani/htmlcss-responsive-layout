@@ -78,12 +78,24 @@ header nav {
   width: 100%;
 }
 
+.planning > div  {
+  width: 100%;
+}
+
 /* testimonials section */
 .img-testimonial {
   width: 100%;
 }
 
 .text-testimonial {
+  width: 100%;
+}
+/* about section  */
+.about-text {
+  width: 100%;
+}
+
+.about-img {
   width: 100%;
 }
 
