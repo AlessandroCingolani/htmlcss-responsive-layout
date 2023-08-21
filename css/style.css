@@ -22,12 +22,43 @@
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .flex-between {
   justify-content: space-between;
 }
 
 /* header */
 
+/* header { 
+  background-color: aqua; 
+}
+*/
+
 header nav {
   padding: 1rem 0  1rem 0;
+}
+
+/* main */
+.big-card {
+  width: 100%;
+  background-color: white;
+  flex-direction: column;
+}
+
+.big-card > div {
+  padding: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    max-width: 800px;
+  }
+  .big-card {
+    width: 100%;
+    flex-direction: row;
+  }
 }
