@@ -58,6 +58,10 @@ header nav {
   display: none;
 }
 
+.desk-menu li {
+  display: inline;
+}
+
 /* main */
 /* intro section */
 .row {
