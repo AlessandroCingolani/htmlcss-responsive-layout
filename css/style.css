@@ -53,6 +53,11 @@ header nav {
   padding: 1rem 0  1rem 0;
 }
 
+
+.desk-menu {
+  display: none;
+}
+
 /* main */
 /* intro section */
 .row {
@@ -160,6 +165,15 @@ header nav {
   .container {
     max-width: 1400px; 
   }
+
+  .burger {
+    display: none;
+  }
+
+  .desk-menu {
+    display: block;
+  }
+  
   .big-card .sx , .dx {
     width: 50%;
   }
