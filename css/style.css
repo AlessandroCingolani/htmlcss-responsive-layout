@@ -108,7 +108,7 @@ header nav {
   }
  
   .big-card {
-    width: 66%;
+    width: 66.6%;
     flex-direction: row;
   }
 
@@ -117,7 +117,7 @@ header nav {
   }
 
   .small-card {
-    width: 33%;
+    width: calc(100% /3);
   }
 
   .benefits .small-card {
