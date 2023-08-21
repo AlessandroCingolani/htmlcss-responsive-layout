@@ -93,6 +93,12 @@ header nav {
 .text-testimonial {
   width: 100%;
 }
+
+/* benefits */
+.benefits .col > div {
+  width: 100%;
+}
+
 /* about section  */
 .about-text {
   width: 100%;
