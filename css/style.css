@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 576px;
   margin: 0 auto;
 }
@@ -112,7 +112,7 @@ header nav {
 
  @media screen and (min-width: 768px) { 
   .container {
-    max-width: 800px;
+    max-width: 1000px;
   }
  
   .big-card {
