@@ -82,11 +82,10 @@ header nav {
 
 .col {
   width: 100%;
-  padding: 10px;
   background-color: white;
 }
 
-.big-card {
+.big-card,.small-card {
   padding: 20px;
   background-color: var(--card);
 }
