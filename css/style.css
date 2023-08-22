@@ -230,6 +230,24 @@ header .btn {
   flex-direction: column;
 }
 
+.text-testimonial p {
+  text-align: center;
+}
+
+.text-testimonial i {
+  color: white;
+  font-size: 0.9rem;
+  padding: 0 5px 0 5px;
+}
+
+.text-testimonial p:first-child {
+  font-size: .8rem;
+}
+
+.text-testimonial p:last-child {
+  margin-top: 10px;
+}
+
 .img-testimonial img {
   max-width: 100%;
   object-fit: contain;
@@ -241,6 +259,7 @@ header .btn {
 
 .benefits {
   background-color: var(--background-violet);
+  margin-top: 30px;
 }
 
 .benefits .small-card {
@@ -428,7 +447,10 @@ footer {
   .img-testimonial {
     margin-right: 30px;
   }
-
+  
+  .text-testimonial p{
+    text-align: start;
+  }
   .about-text {
     width: 60%;
   }
