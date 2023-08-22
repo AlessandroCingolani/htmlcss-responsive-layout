@@ -91,6 +91,11 @@ header nav {
   cursor: pointer;
 }
 
+.mini-container{
+  margin: 20px;
+  text-align: center;
+}
+
 /* main */
 /* intro section */
 .row {
@@ -160,19 +165,25 @@ header nav {
 }
 
 /* testimonials section */
+.testimonials .row .small-card {
+  background-color: var(--background-violet);
+  color: white;
+}
+
+
 .img-testimonial  {
-  width:220px;
+  width:200px;
+  margin-bottom: 20px;
 }
 
 .text-testimonial {
   flex-direction: column;
-  align-items: center;
 }
 
 .img-testimonial img {
   max-width: 100%;
+  object-fit: contain;
   border-radius: 50%;
-  padding-bottom: 20px;
 }
 
 
@@ -214,6 +225,10 @@ header nav {
 /* about section  */
 .about-text {
   width: 100%;
+}
+
+.about-text .mini-container {
+  text-align: left;
 }
 
 .about-img {
@@ -281,8 +296,8 @@ footer {
     justify-content: start;
   }
 
-  .img-testimonial img {
-    padding-right: 30px;
+  .img-testimonial {
+    margin-right: 30px;
   }
 
   .about-text {
@@ -308,7 +323,11 @@ footer {
   .big-card .sx , .dx {
     width: 50%;
   }
-  
+
+  .planning img {
+    max-width: 50%;
+  }
+
   .benefits .col {
     width: calc(100% /3 );
   }
