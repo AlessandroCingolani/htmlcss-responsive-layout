@@ -124,6 +124,7 @@ header .btn {
 .intro h4 {
   color: var(--icon-blue);
   padding: 20px 0 20px 0;
+  font-size: 1.3rem;
 }
 
 .intro p {
@@ -157,6 +158,10 @@ header .btn {
 .small-card i {
   font-size: 4rem;
   color: var(--icon-blue);
+}
+
+.small-card p {
+  text-align: center;
 }
 
 .intro .col img {
@@ -368,6 +373,17 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  text-align: center;
+}
+
+.footer h5 {
+  font-weight: 300;
+  font-size: .7rem;
+  padding-top: 30px;
+}
+
+.footer h6 {
+  padding: 20px 0 30px 0;
 }
 
  @media screen and (min-width: 768px) { 
@@ -414,11 +430,11 @@ footer {
     width: 40%;
   }
 
-  .getstarted .container {
+  .getstarted .container,footer .container {
     justify-content: center;
   }
 
-  .cta {
+  .cta,.footer {
     width: 50%;
     text-align: center;
   }
