@@ -79,14 +79,15 @@ header nav {
 
 /* main */
 /* intro section */
+.row {
+  flex-direction: column;
+}
 
 .col {
   width: 100%;
-  background-color: white;
 }
 
-.big-card,.small-card {
-  padding: 20px;
+.big-card ,.small-card {
   background-color: var(--card);
 }
 
@@ -96,8 +97,12 @@ header nav {
 
 /* planning section */
 
-.planning > div  {
+.planning {
   width: 100%;
+}
+
+.planning img {
+  width: 80%;
 }
 
 /* testimonials section */
@@ -110,9 +115,7 @@ header nav {
 }
 
 /* benefits */
-.benefits .col > div {
-  width: 100%;
-}
+
 
 /* about section  */
 .about-text {
@@ -124,7 +127,10 @@ header nav {
 }
 
  @media screen and (min-width: 768px) { 
- 
+  .row {
+    flex-direction: row;
+  }
+
   .big-card {
     width: 66.6%;
     flex-direction: row;
