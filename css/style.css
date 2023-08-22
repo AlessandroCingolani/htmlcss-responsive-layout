@@ -109,6 +109,7 @@ header nav {
 /* planning section */
 
 .planning {
+
   background-color: var(--background-violet);
 }
 
@@ -123,7 +124,6 @@ header nav {
 
 .img-testimonial img {
   width: 100%;
-  object-fit: contain;
 }
 
 
@@ -140,6 +140,10 @@ header nav {
 
 .about-img {
   width: 100%;
+}
+
+.about-img img {
+  width: 50%;
 }
 
  @media screen and (min-width: 768px) { 
@@ -168,22 +172,12 @@ header nav {
     width: 100%;
   }
 
-
-  .img-testimonial {
-    width: 30%;
-  }
-
-  .text-testimonial {
-    width: 70%;
-    justify-content: center;
-  }
-
   .about-text {
-    width: 70%;
+    width: 60%;
   }
   
   .about-img {
-    width: 30%;
+    width: 40%;
   }
 
 }
