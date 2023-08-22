@@ -66,7 +66,7 @@ header {
 
 
 header nav {
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
 }
 
 .desk-menu {
@@ -90,6 +90,8 @@ header nav {
 
 .big-card ,.small-card {
   margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
   justify-content: center;
   background-color: var(--card);
 }
@@ -106,7 +108,9 @@ header nav {
 
 /* planning section */
 
-
+.planning {
+  background-color: var(--background-violet);
+}
 
 .planning img {
   width: 80%;
