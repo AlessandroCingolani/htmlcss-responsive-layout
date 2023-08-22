@@ -80,6 +80,7 @@ header nav {
 /* main */
 /* intro section */
 .row {
+  display: flex;
   flex-direction: column;
 }
 
@@ -105,8 +106,13 @@ header nav {
 }
 
 /* testimonials section */
-.img-testimonial > div {
+.img-testimonial  {
   width:220px;
+  object-fit: contain;
+}
+.img-testimonial img {
+  width: 100%;
+  object-fit: contain;
 }
 
 
