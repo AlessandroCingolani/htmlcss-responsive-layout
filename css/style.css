@@ -4,6 +4,7 @@
   --card:rgb(181, 221, 255);
   --background-violet:rgb(151, 146, 228);
   --free:rgb(253, 193, 95);
+  --icon-blue:rgb(0, 132, 253);
 }
 
 * {
@@ -111,6 +112,11 @@ header nav {
   align-items: center;
 }
 
+.small-card i {
+  font-size: 4rem;
+  color: var(--icon-blue);
+}
+
 .intro .col img {
   width: 208px;
 }
@@ -119,6 +125,7 @@ header nav {
 
 .planning {
   background-color: var(--background-violet);
+  color: white;
 }
 
 .planning img {
@@ -131,6 +138,7 @@ header nav {
   padding: 20px;
   border-radius: 10px;
   background-color: white;
+  color: black;
 }
 
 .card img {
@@ -140,6 +148,10 @@ header nav {
 /* testimonials section */
 .img-testimonial  {
   width:220px;
+}
+
+.text-testimonial {
+  flex-direction: column;
 }
 
 .img-testimonial img {
@@ -198,9 +210,6 @@ header nav {
     width: 50%;
   }
 
-  .small-card > div {
-    width: 100%;
-  }
 
   .about-text {
     width: 60%;
