@@ -93,6 +93,12 @@ header nav {
   background-color: var(--card);
 }
 
+.small-card,.sx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .intro .col img {
   width: 208px;
 }
@@ -118,6 +124,9 @@ header nav {
 
 /* benefits */
 
+.benefits {
+  background-color: var(--background-violet);
+}
 
 /* about section  */
 .about-text {
