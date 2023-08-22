@@ -160,7 +160,7 @@ header .btn {
   color: var(--icon-blue);
 }
 
-.small-card p {
+.intro .small-card p {
   text-align: center;
 }
 
@@ -394,7 +394,7 @@ footer {
   .intro .small-card {
     justify-content: start;
   }
-  
+
   .big-card .sx , .dx {
     width: 100%;
     align-items: start;
