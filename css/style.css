@@ -82,6 +82,7 @@ ul {
     padding-right: 9px;
   }
   
+  
 /* header */
 
 header { 
@@ -93,14 +94,25 @@ header nav {
   padding: 10px 20px 10px 20px;
 }
 
+header a {
+  text-decoration: none;
+  color: white;
+}
+
 .desk-menu {
   display: none;
 }
 
 .desk-menu li {
   display: inline-block;
+  padding-left: 20px;
 }
 
+header .btn {
+  background-color: white;
+  color: black;
+  padding: 5px 10px 5px 10px;
+}
 
 /* main */
 /* intro section */
@@ -129,6 +141,11 @@ header nav {
   border-radius: 10px;
   justify-content: center;
   background-color: var(--card);
+}
+
+.big-card .btn {
+  font-size: .8rem;
+  background-color: var(--blue);
 }
 
 .small-card,.sx {
