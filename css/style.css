@@ -269,6 +269,14 @@ footer {
     width: 50%;
   }
 
+  .testimonials .small-card {
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .testimonials .small-card .col {
+    justify-content: start;
+  }
 
   .about-text {
     width: 60%;
