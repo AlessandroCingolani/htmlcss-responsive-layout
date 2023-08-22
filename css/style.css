@@ -88,6 +88,7 @@ header nav {
 }
 
 .big-card ,.small-card {
+  padding: 20px;
   background-color: var(--card);
 }
 
