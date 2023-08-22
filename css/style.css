@@ -123,7 +123,12 @@ header nav {
 }
 
 .planning img {
-  width: 80%;
+  width: 70%;
+}
+
+.planning .card {
+  width: 100%;
+  background-color: white;
 }
 
 /* testimonials section */
