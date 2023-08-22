@@ -176,11 +176,12 @@ header .btn {
 }
 
 .planning img {
-  max-width: 70%;
+  width: 70%;
 }
 
 .planning .card {
   flex-direction: column;
+  align-items: center;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -188,9 +189,6 @@ header .btn {
   color: black;
 }
 
-.card img {
-  max-width: 100%;
-}
 
 /* testimonials section */
 
@@ -433,6 +431,10 @@ footer {
     width: 40%;
   }
 
+  .planning .row {
+    flex-direction: column;
+  } 
+
   .getstarted .container,footer .container {
     justify-content: center;
   }
@@ -464,6 +466,10 @@ footer {
   .planning img {
     max-width: 50%;
   }
+
+  .planning .row {
+    flex-direction: row;
+  } 
 
   .benefits .col {
     width: calc(100% /3 );
