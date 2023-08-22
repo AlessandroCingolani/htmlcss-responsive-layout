@@ -326,6 +326,10 @@ header nav {
   padding: 25px 0 25px 0;
 }
 
+.cta p {
+  text-align: center;
+}
+
 .cta .btn {
   font-size: .8rem;
   font-weight: 600;
@@ -391,6 +395,14 @@ footer {
     width: 40%;
   }
 
+  .getstarted .container {
+    justify-content: center;
+  }
+
+  .cta {
+    width: 50%;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 992px) { 
