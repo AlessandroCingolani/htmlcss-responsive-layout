@@ -60,6 +60,28 @@ ul {
   color: white;
   }
 
+  .btn {
+    padding: 6px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--background-violet);
+    color: white;
+    border-radius: 20px;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  .mini-container{
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .btn i {
+    padding-right: 9px;
+  }
+  
 /* header */
 
 header { 
@@ -76,29 +98,9 @@ header nav {
 }
 
 .desk-menu li {
-  display: inline;
+  display: inline-block;
 }
 
-.btn {
-  padding: 6px 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: var(--background-violet);
-  color: white;
-  border-radius: 20px;
-}
-.btn:hover {
-  cursor: pointer;
-}
-
-.mini-container{
-  margin: 20px;
-  text-align: center;
-}
-
-.btn i {
-  padding-right: 9px;
-}
 
 /* main */
 /* intro section */
@@ -413,6 +415,10 @@ footer {
 
   .desk-menu {
     display: block;
+  }
+  
+  header nav:first-child {
+    align-items: center;
   }
   
   .big-card .sx , .dx {
