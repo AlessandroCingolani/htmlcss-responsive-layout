@@ -184,6 +184,30 @@ header nav {
   align-items: start;
 }
 
+.benefits h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding: 30px 0 20px 0;
+}
+
+.benefits h4 {
+  font-size: 2rem;
+  color: var(--background-violet);
+  padding-bottom: 20px;
+}
+
+.benefits h5 {
+  font-size: 1.2rem;
+  color: var(--background-violet);
+  padding-bottom: 20px;
+}
+
+.benefits p {
+  font-size: 0.7rem;
+  color: gray;
+}
+
 /* about section  */
 .about-text {
   width: 100%;
