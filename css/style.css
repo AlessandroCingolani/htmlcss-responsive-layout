@@ -5,6 +5,7 @@
   --background-violet:rgb(151, 146, 228);
   --free:rgb(253, 193, 95);
   --icon-blue:rgb(0, 132, 253);
+  --footer:rgb(51, 51, 51);
 }
 
 * {
@@ -79,9 +80,12 @@ header nav {
 }
 
 .btn {
-  padding: 5px 10px;
-  background-color: white;
-  border-radius: 10px;
+  padding: 6px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: var(--background-violet);
+  color: white;
+  border-radius: 20px;
 }
 .btn:hover {
   cursor: pointer;
@@ -92,6 +96,16 @@ header nav {
 .row {
   display: flex;
   flex-direction: column;
+}
+
+.intro h4 {
+  color: var(--icon-blue);
+  padding: 20px 0 20px 0;
+}
+
+.intro p {
+  color: rgb(90, 110, 127);
+  font-size: 0.8rem;
 }
 
 .col {
@@ -165,6 +179,11 @@ header nav {
   background-color: var(--background-violet);
 }
 
+.benefits .small-card {
+  background-color: white;
+  align-items: start;
+}
+
 /* about section  */
 .about-text {
   width: 100%;
@@ -180,12 +199,27 @@ header nav {
 
 /* get started */
 
+.getstarted {
+  background-color: var(--background-violet);
+}
 
 .cta {
   flex-direction: column;
   align-items: center;
+  width: 100%; 
+}
+
+/* footer */
+
+footer {
+  background-color: var(--footer);
+}
+
+.footer {
+  color: white;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  
 }
 
  @media screen and (min-width: 768px) { 
@@ -196,6 +230,7 @@ header nav {
 
   .big-card .sx , .dx {
     width: 100%;
+    align-items: start;
   }
 
   .intro .col {
