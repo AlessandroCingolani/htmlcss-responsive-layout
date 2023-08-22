@@ -89,7 +89,8 @@ header nav {
 }
 
 .big-card ,.small-card {
-  padding: 20px;
+  margin: 20px;
+  justify-content: center;
   background-color: var(--card);
 }
 
@@ -114,8 +115,8 @@ header nav {
 /* testimonials section */
 .img-testimonial  {
   width:220px;
-  object-fit: contain;
 }
+
 .img-testimonial img {
   width: 100%;
   object-fit: contain;
