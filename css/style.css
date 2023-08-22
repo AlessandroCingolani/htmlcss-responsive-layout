@@ -249,12 +249,36 @@ header nav {
   text-align: left;
 }
 
+.about-text .mini-container h2 {
+  font-size: 2rem;
+  padding: 30px 0 25px 0;
+  color: var(--background-violet);
+}
+
+.about-text .mini-container p {
+  font-size: .8rem;
+  padding-bottom: 30px;
+}
+
 .about-img {
   width: 100%;
 }
 
+.about-img .btn {
+  width: 230px;
+}
+
+.fa-linkedin {
+  padding-right: 9px;
+}
+
+.about-img .mini-container{
+  text-align: left;
+}
+
 .about-img img {
-  width: 50%;
+  width: 180px;
+  border-radius: 50%;
 }
 
 /* get started */
