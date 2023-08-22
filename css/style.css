@@ -189,6 +189,12 @@ header .btn {
   color: black;
 }
 
+#anchor {
+  background-color: var(--background-violet);
+  margin-top: 10px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+}
 
 /* testimonials section */
 
