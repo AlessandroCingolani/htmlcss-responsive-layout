@@ -165,6 +165,24 @@ header nav {
 }
 
 /* testimonials section */
+
+.testimonials .mini-container h5 {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 20px 0 20px 0;
+}
+
+.testimonials .mini-container h3 {
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+  color: var(--background-violet);
+}
+
+.testimonials .mini-container p {
+  padding: 20px;
+  font-weight: 400;
+}
+
 .testimonials .row .small-card {
   background-color: var(--background-violet);
   color: white;
