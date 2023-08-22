@@ -86,6 +86,15 @@ header nav {
   background-color: white;
 }
 
+.big-card {
+  padding: 20px;
+  background-color: var(--card);
+}
+
+.intro .col img {
+  width: 208px;
+}
+
 /* planning section */
 
 .planning > div  {
