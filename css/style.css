@@ -1,4 +1,10 @@
-
+:root{
+  --main-font: 'Open Sans', sans-serif;
+  --blue:rgb(0, 132, 253);
+  --card:rgb(181, 221, 255);
+  --background-violet:rgb(151, 146, 228);
+  --free:rgb(253, 193, 95);
+}
 
 * {
   margin: 0;
