@@ -391,7 +391,10 @@ footer {
     flex-direction: row;
   }
 
-
+  .intro .small-card {
+    justify-content: start;
+  }
+  
   .big-card .sx , .dx {
     width: 100%;
     align-items: start;
