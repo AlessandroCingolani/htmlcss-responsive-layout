@@ -223,7 +223,10 @@ header .btn {
 
 .img-testimonial  {
   width:200px;
+  height: 200px;
   margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .text-testimonial {
@@ -249,9 +252,9 @@ header .btn {
 }
 
 .img-testimonial img {
-  max-width: 100%;
+  width: auto;
+  height: 100%;
   object-fit: contain;
-  border-radius: 50%;
 }
 
 
